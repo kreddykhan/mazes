@@ -145,12 +145,12 @@ class Maze
   end
 end
 
-#myMaze = Maze.new(9,9)
-#maze_string = "111111111100010001111010101100010101101110101100000101111011101100000101111111111"
-#myMaze.load(maze_string)
-#myMaze.displayMaze
-#myMaze.solve(0,0,7,7)
-#myMaze.solve(1,1,7,7)
-#myMaze.trace(1,1,7,7)
+# myMaze = Maze.new(9,9)
+# maze_string = "111111111100010001111010101100010101101110101100000101111011101100000101111111111"
+# myMaze.load(maze_string)
+# myMaze.displayMaze
+# myMaze.solve(0,0,7,7)
+# myMaze.solve(1,1,7,7) # Note that this will destroy the maze so trace will not work
+# myMaze.trace(1,1,7,7)
 #myMaze.redesign()
 #myMaze.displayMaze
